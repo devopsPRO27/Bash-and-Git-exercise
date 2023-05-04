@@ -28,7 +28,7 @@ def main():
     if len(args) < 1:
         print('Not enough parameters.\n'\
               'Proper Usage is: python s3create.py <BUCKET_NAME>')
-        sys.exit(1)
+        sys.exit(1)c
 
     bucket_name = args[0]
     print('Bucket name: ' + bucket_name)
